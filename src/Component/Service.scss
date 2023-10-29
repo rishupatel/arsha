@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300&family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;500&family=Poppins:wght@300;500;600&family=Roboto:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Jost:wght@500&family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300&family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;500&family=Poppins:wght@300;500;600&family=Roboto:wght@300;700&display=swap");
+
+#Service {
+  position: relative;
+  top: 260px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-color: #f3f5fa;
+}
+#Service {
+  .Service_header {
+    text-align: center;
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 35px;
+      position: relative;
+      color: #37517e;
+      font-family: "Jost", sans-serif;
+    }
+    h2:before {
+      position: absolute;
+      content: "";
+      top: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 113px;
+      height: 1px;
+      background-color: #c8ced1;
+      margin: auto;
+    }
+    h2:after {
+      position: absolute;
+      content: "";
+      top: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 40px;
+      height: 3px;
+      background-color: #47b2e4;
+      margin: auto;
+    }
+    p {
+      font-size: 17px;
+      font-family: "Open Sans", sans-serif;
+      color: #444444;
+      margin-bottom: 32px;
+    }
+  }
+  .card {
+    padding: 35px 35px;
+    border: none;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.4s;
+    .icon {
+      font-size: 32px;
+      color: #47b2e4;
+    }
+    h4 {
+      font-size: 21px;
+      margin-bottom: 12px;
+      margin-top: 20px;
+      color: #37517e;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+    }
+    p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+}

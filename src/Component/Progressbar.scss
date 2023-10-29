@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300&family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;500&family=Poppins:wght@300;500;600&family=Roboto:wght@300;700&display=swap");
+
+#Progressbar {
+  position: relative;
+  top: 180px;
+  padding-top:25px ;
+  padding-bottom: 25px;
+}
+
+#Progressbar {
+  .image {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .rightSide {
+    h2 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #37517e;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      font-size: 18px;
+      font-style: oblique;
+    }
+  }
+  .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    .skill {
+      padding: 0;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      display: block;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: #37517e;
+    }
+    .val {
+      float: right;
+      font-style: normal;
+    }
+  }
+}
+
+.MuiLinearProgress-root {
+  color: #37517e !important;
+  height: 10px !important;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    -webkit-transition: -webkit-transform .4s linear;
+    transition: transform .4s linear;
+    transform-origin: left;
+    background-color: #2f6daa !important;
+}

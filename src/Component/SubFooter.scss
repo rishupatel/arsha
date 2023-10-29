@@ -1,0 +1,21 @@
+#SubFooter {
+  position: relative;
+  left: 0;
+ top: 500px;
+  background-color: #37517e;
+  color: white;
+  padding: 28px 0px;
+}
+
+#SubFooter {
+  p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  span {
+    color: #3b9de4;
+  }
+  .DesignedBy {
+    float: right;
+  }
+}

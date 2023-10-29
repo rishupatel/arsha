@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300&family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;500&family=Poppins:wght@300;500;600;700&family=Roboto:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@300&family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;500&family=Poppins:wght@300;500;600;700&family=Roboto:wght@300;700&display=swap");
+
+#Banner {
+  background-color: #37517e;
+  width: 100%;
+  height: calc(100vh - 200px);
+  position: relative;
+  top: 72px;
+  color: white;
+}
+
+#Banner {
+  .leftPart {
+    text-align: left;
+    padding-top: 180px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-family: "Jost", sans-serif;
+      line-height: 56px;
+    }
+    p {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.6);
+      font-family: "Jost", sans-serif;
+      line-height: 32px;
+      margin-bottom: 45px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .gettingStartedBtn {
+      font-family: "Jost", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 28px 11px 28px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 10px 0 0 0;
+      color: #fff;
+      background: #47b2e4;
+      text-transform: capitalize;
+      margin-right: 25px;
+      &:hover {
+        background-color: #209dd8;
+        color: white;
+      }
+    }
+    .video {
+      font-size: 20px;
+      text-decoration: none;
+      .videoIcon {
+        color: white;
+        font-size: 32px;
+      }
+      span {
+        color: white;
+        font-size: 18px;
+        margin-left: 3px;
+      }
+      &:hover .videoIcon {
+        color: #209dd8;
+      }
+    }
+  }
+  .bannerImg {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+  }
+  .bannerImg {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @keyframes up-down {
+    from {
+      transform: translateY(10px);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+#logo {
+  position: relative;
+  top: 72px;
+  background-color: #f3f5fa;
+
+  .logoImg {
+    max-width: 48%;
+    height: auto;
+    padding: 25px 0px;
+    filter: grayscale(100);
+    &:hover {
+      filter: none;
+      transform: scale(1.1);
+    }
+  }
+}
