@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navbar.scss'
+import './navigation.scss';
 
-const Navbar = () => {
+const Navigation = () => {
     return (
         <>
             <section id='Navbar'>
@@ -19,7 +19,7 @@ const Navbar = () => {
                                     <li> <NavLink exact activeClassName='active_class ' to="/service" >Service</NavLink></li>
                                     <li> <NavLink exact activeClassName='active_class ' to="/portfolio" >Portfolio</NavLink></li>
                                     <li><NavLink exact activeClassName='active_class ' to="/team" >Team</NavLink></li>
-                                    <li  className=" dropdown"><NavLink exact activeClassName='active_class ' to="/dropdown" >
+                                    <li className=" dropdown"><NavLink exact activeClassName='active_class ' >
                                         <a class="nav-link dropdown-toggle" id="dropdown" role="button"  >
                                             Dropdown
                                         </a>
@@ -28,18 +28,18 @@ const Navbar = () => {
                                             <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
                                             <li><a class="dropdown-item subdropdownLink dropdown-toggle" role="button" href="#">
                                                 Dropdown 3
-                                            <ul className='subdropdown'>
-                                                <li><a href='#'>Dropdown 1</a></li>
-                                                <li><a href='#'>Dropdown 2</a></li>
-                                                <li><a href='#'>Dropdown 3</a></li>
-                                                <li><a href='#'>Dropdown 4</a></li>
-                                            </ul>
-                                            
+                                                <ul className='subdropdown'>
+                                                    <li><a href='#'>Dropdown 1</a></li>
+                                                    <li><a href='#'>Dropdown 2</a></li>
+                                                    <li><a href='#'>Dropdown 3</a></li>
+                                                    <li><a href='#'>Dropdown 4</a></li>
+                                                </ul>
+
                                             </a></li>
                                             <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
                                             <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
                                         </ul>
-                                   </NavLink></li>
+                                    </NavLink></li>
                                     <li><NavLink exact activeClassName='active_class ' to="/contact" >Contact</NavLink></li>
                                     <li><NavLink exact activeClassName='active_class ' to="/get_started" className="getStartedBtn">Get Started</NavLink></li>
                                 </ul>
@@ -52,4 +52,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navigation

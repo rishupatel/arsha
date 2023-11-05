@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import { FiDribbble, FiFileText } from 'react-icons/fi';
 import { BiTachometer, BiLayer } from 'react-icons/bi';
-import './Service.scss'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import './Service.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Service = () => {

@@ -1,13 +1,12 @@
-import React,{useEffect} from 'react'
-import './Question.scss'
+import React,{useEffect} from 'react';
+import './Question.scss';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { BiHelpCircle } from 'react-icons/bi';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Question = () => {

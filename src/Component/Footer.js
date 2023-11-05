@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.scss'
-import { styled } from '@mui/material/styles';
 import { HiMiniChevronRight } from 'react-icons/hi2';
 import { BiLogoTwitter, BiLogoFacebook, BiLogoInstagramAlt } from 'react-icons/bi';
 import { AiFillLinkedin } from 'react-icons/ai';

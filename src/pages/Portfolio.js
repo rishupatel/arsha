@@ -1,12 +1,12 @@
 import React,{useEffect, useState} from 'react'
-import './Portfolio.scss'
+import './Portfolio.scss';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Box from '@mui/material/Box';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Portfolio = () => {
 

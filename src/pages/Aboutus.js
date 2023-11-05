@@ -1,8 +1,8 @@
-import React,{useEffect} from 'react'
-import './About.scss'
+import React,{useEffect} from 'react';
+import './About.scss';
 import { IoCheckmarkDone } from 'react-icons/io5';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Aboutus = () => {
 
@@ -12,10 +12,12 @@ const Aboutus = () => {
 
   return (
     <>
+    <div className='aboutusMain'>
+
       <section id='About'>
         <div className='container' data-aos="fade-up">
           <div className='row'>
-            <div className='About_Header'>
+            <div className='About_Header mb-4'>
               <h2>ABOUT US</h2>
             </div>
             <div className='col-sm-6'>
@@ -40,6 +42,8 @@ const Aboutus = () => {
           </div>
         </div>
       </section>
+            
+    </div>
     </>
   )
 }

@@ -1,9 +1,9 @@
-import React,{useEffect} from 'react'
-import './Pricing.scss'
+import React,{useEffect} from 'react';
+import './Pricing.scss';
 import { BsCheckLg } from 'react-icons/bs';
 import { IoCloseOutline } from 'react-icons/io5';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Pricing = () => {

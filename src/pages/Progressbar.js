@@ -1,10 +1,9 @@
-import React,{useEffect} from 'react'
-import { styled } from '@mui/material/styles';
-import './Progressbar.scss'
+import React,{useEffect} from 'react';
+import './Progressbar.scss';
 import img from '../Images/skills.png';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Progressbar = () => {
 

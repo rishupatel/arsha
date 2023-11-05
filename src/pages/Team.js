@@ -1,14 +1,13 @@
-import React, { useEffect } from 'react'
-import './Team.scss'
+import React, { useEffect } from 'react';
+import './Team.scss';
 import image1 from '../Images/team1.jpg';
 import image2 from '../Images/team2.jpg';
 import image3 from '../Images/team3.jpg';
 import image4 from '../Images/team4.jpg';
-
 import { BiLogoTwitter, BiLogoFacebook, BiLogoInstagramAlt } from 'react-icons/bi';
 import { AiFillLinkedin } from 'react-icons/ai';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Team = () => {

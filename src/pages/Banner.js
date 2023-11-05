@@ -1,13 +1,13 @@
-import React from 'react'
-import './Banner.scss'
+import React from 'react';
+import './Banner.scss';
 import { ImPlay2 } from 'react-icons/im';
-import bannerImg from '../Images/heroimg.png'
-import client1 from '../Images/client1.png'
-import client2 from '../Images/client2.png'
-import client3 from '../Images/client3.png'
-import client4 from '../Images/client4.png'
-import client5 from '../Images/client5.png'
-import client6 from '../Images/client6.png'
+import bannerImg from '../Images/heroimg.png';
+import client1 from '../Images/client1.png';
+import client2 from '../Images/client2.png';
+import client3 from '../Images/client3.png';
+import client4 from '../Images/client4.png';
+import client5 from '../Images/client5.png';
+import client6 from '../Images/client6.png';
 const Banner = () => {
   return (
     <>
